@@ -1,18 +1,26 @@
-
-.div1 {
-    height: 100px;
-    width: 100px;
-    background-color: red;
+.titulo1{ text-align: center;
 }
-
-.div2 {
-    height: 150px;
-    width: 150px;
-    background-color: green;
+.nav1{ text-align: left; font-size: 20px; 
 }
-
-.div3 {
-    height: 200px;
-    width: 200px;
-    background-color: blue;
+.legend1{ text-align: center; color: crimson; font-size: 20px;
+}
+.titulo2{text-align: center; font-size: 40px;
+}
+.p1{text-align: center; color: crimson;
+}
+.img1{ align-items: center;
+}
+.h2{ text-align: center; font-size: 40px;
+}
+.section1{text-align: center;
+}
+.p2{color: crimson;
+}
+.form{ text-align: center;
+}
+.aside{text-align: center;
+}
+.footer{text-align: center;
+}
+.address{color: crimson; font-size: 20px;
 }

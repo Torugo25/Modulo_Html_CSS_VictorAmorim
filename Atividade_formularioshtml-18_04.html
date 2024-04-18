@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários em HTML</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header>
+   <h1 class="titulo1">Estudando formulários em HTML</h1>
+   <ul>
+<nav class="nav1"><a href="#">Sobre</a></nav>
+<nav class="nav1"><a href="#">Serviços</a></nav>
+<nav class="nav1"><a href="#">Contatos</a></nav>   
+  </ul>
+</header>
+
+<main>
+<fieldset>
+    <legend class="legend1">Conteúdo</legend>
+    
+    <article><H2 class="titulo2">Sobre</H2></article>
+    <p class="p1">Está é uma página de exemplo, criada para demonstrar o uso da tag form do HTML.
+    </p>
+    <img class="img1" src="imgs/Gatinho_joinha.jpeg" alt="Imagem não encontrada">   
+
+    <section>
+    <h2 class="h2">Serviços</h2>
+    <ul>
+     <li>Web design</li>
+     <li>Desenvolvimento</li>
+     <li>Hospedagem de sites</li>   
+    </ul>
+    </section>
+
+    <section class="section1">
+    <h2 class="h2">Contatos</h2>
+    <p class="p2">Entre em contato conosco!</p>   
+    </section>
+
+<form  class="form" action="/Contato" method="post">
+
+<label for="Nome">Nome</label>
+<input type="text" id="Nome" name="Nome" required><br><br>
+
+<label for="Email">Email</label>
+<input type="text" id="Email" name="Email" required><br><br>
+
+<label for="Mensagem">Mensagem</label>
+<textarea name="Mensagem" id="Mensagem" cols="50" rows="4" name="Mensagem" required></textarea><br><br>
+
+<input type="submit" value="Enviar">
+
+</form>
+</fieldset>
+</main>
+
+<aside class="aside">
+  <h2>Barra lateral</h2>
+  <p>Algumas informações adicionais podem ser exibidas aqui.</p>
+</aside>
+
+<footer class="footer">
+  <p>&copy;2024 Minha Empresa. Todos os direitos reservados.</p>  
+</footer>
+
+<p></p>
+
+<address class="address">
+<h5>Endereço: Av. Exemplo, 123 - Cidade - Brasil 
+</h5>
+<h5>Telefone: (XX) X XXXX-XXXX
+</h5>
+<h5>Email: exemplo@email.com    
+</h5>
+</address>
+</style>
+</body>
+</html>
