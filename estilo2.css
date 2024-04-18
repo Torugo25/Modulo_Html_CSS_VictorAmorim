@@ -1,0 +1,36 @@
+.body{ background-color: black;
+}    
+.h1titulo{ color: red; text-align: center; font-style: italic; font-size: 100px;
+}
+.header{ background-color: red; width: 600px; height: 420px; margin: auto;
+}
+.h1{ color: red; text-align: center; font-style: italic; font-size: 70px;
+}
+.header2{ background-color: red; width: 1000px; height: 700px; margin: auto;
+}
+.h2{color: black; text-align: center;font-style: oblique;
+}
+.nav1{text-align: left; font-style: italic; font-size: 50px;
+}
+.p1{ color: black; text-align: center; font-style: oblique; font-size: 50px
+}
+.h3{ color: black; text-align: center; font-style: italic; font-size: 20px;
+}
+.video1{ width: 500px; height: 475px; position: absolute; left: 50%; transform: translateX(-50%);
+}
+.img1{ width: 500px; height: 475px; position: absolute; left: 50%; transform: translateX(-50%);
+}
+.aside1{ background-color: red; width: 750px; height: 750px; margin: auto;
+}
+.img2{ width: 500px; height: 400px; position: absolute; left: 50%; transform: translateX(-50%);
+}
+.nav2{text-align: center; font-style: italic; font-size: 25px;
+}
+.article1{ background-color: red; width: 750px; height: 750px; margin: auto;
+}
+.form1{ background-color: red; width: 1000px; height: 1000px; margin: auto;
+}
+.inputs{ text-align: center; font-size: 40px;
+}
+.footer1{ color: red; width: 750px; height: 750px; margin: auto;
+}
