@@ -1,0 +1,25 @@
+1-Crie um algorito usando o portugol (visualg), para a sequencia de Fibonacci.
+
+Algoritmo "sequencia de fibonacci"
+
+Var
+
+valor1, valor2, valor3, limite, cont:inteiro
+
+Inicio
+
+   escreva("Digite quantos números você deseja receber: ")
+   leia(limite)
+   valor1<--1
+   valor2<-1
+   cont<-0
+   enquanto (cont<limite) faca
+          valor3<-valor1+valor2
+          valor1<-valor2
+          valor2<-valor3
+          escreva (valor3)
+          cont<-cont+1
+   fimenquanto
+          
+
+Fimalgoritmo
